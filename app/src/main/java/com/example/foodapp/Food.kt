@@ -1,4 +1,4 @@
 package com.example.foodapp
 
-class food {
-}
+
+data class Food(var name: String, var recipe: Int, var image: Int)
